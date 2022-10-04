@@ -1,0 +1,28 @@
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:30%;
+    height:100%;
+
+}
+.ime{
+    display:flex;
+    height:100%;
+    color:white;
+    align-items: center;
+    font-size:20px;
+}
+.active{
+    background-color:rgba(205, 134, 63, 0.7);
+    box-sizing: border-box;
+    border-bottom:white 4px solid;
+    color:white;
+    text-decoration: none;
+    padding:4px;
+}
+.inactive{
+    color:white;
+    text-decoration: none;
+    padding:4px;
+}
